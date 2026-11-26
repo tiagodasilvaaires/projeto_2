@@ -1,0 +1,42 @@
+body {
+  background-color: #1a1a1a;
+  color: #e8e8e8;
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+h1, h2 {
+  color: #e0a030;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+li div {
+  background-color: #333333;
+  padding: 10px;
+  margin: 6px;
+}
+
+.destaque {
+  background-color: #e0a030;
+  color: #1a1a1a;
+  padding: 12px;
+  margin: 20px;
+}
+
+a {
+  color: #e0a030;
+}
+
+/*
+Avaliação metacognitiva
+
+1. Desafio Técnico: O mais difícil foi perceber porque é que a página aparecia sem cores. Fui ver o link do CSS no <head> e percebi que o caminho do ficheiro estava errado, por isso o browser não o encontrava. Corrigi o caminho e já funcionou.
+
+2. Correção de Sintaxe: Sim, tive de voltar ao Notepad++ por causa disso. O meu erro mais comum foi escrever mal o caminho do ficheiro CSS no link. Depois de corrigir, guardei e carreguei em F5.
+
+3. Autoria: O atributo src serve para dizer ao browser onde está o ficheiro da imagem que queremos mostrar na página, indicando o nome do ficheiro e a pasta onde ele está guardado.
+*/
